@@ -1,22 +1,22 @@
-# Energy Efficiency Prediction with MLP
+#Energy Efficiency Prediction with MLP
 
-Este proyecto utiliza un **Multilayer Perceptron (MLP)** para predecir la **carga de calefacción (Heating Load)** de edificios en función de sus características físicas y térmicas. El dataset proviene del **UCI Machine Learning Repository** y contiene 768 muestras con 8 características de entrada.
+This project uses a **Multilayer Perceptron (MLP)** to predict the **Heating Load** of buildings based on their physical and thermal characteristics. The dataset comes from the **UCI Machine Learning Repository** and contains 768 samples with 8 input features.
 
 ## Dataset
-El dataset incluye las siguientes características de entrada:
-- **X1**: Compacidad relativa del edificio
-- **X2**: Área de superficie total (m²)
-- **X3**: Área de pared total (m²)
-- **X4**: Área del techo (m²)
-- **X5**: Altura total del edificio (m)
-- **X6**: Orientación (categoría de 2 a 5)
-- **X7**: Área de acristalamiento total (m²)
-- **X8**: Distribución del acristalamiento (categoría de 0 a 5)
+The dataset includes the following input features:
+- **X1**: Relative building compactness
+- **X2**: Total surface area (m²)
+- **X3**: Total wall area (m²)
+- **X4**: Roof area (m²)
+- **X5**: Total building height (m)
+- **X6**: Orientation (category 2 to 5)
+- **X7**: Total glazing area (m²)
+- **X8**: Glazing distribution (category 0 to 5)
 
-La variable objetivo es **Y1**: Heating Load (Carga de calefacción), que es lo que se intenta predecir.
+The target variable is **Y1**: Heating Load, which is what we are trying to predict.
 
-## Modelo
-El modelo MLP es entrenado utilizando las características anteriores para predecir la carga de calefacción. El entrenamiento se realiza utilizando **scikit-learn** y **TensorFlow**.
+## Model
+The MLP model is trained using the above features to predict the heating load. Training is done using **scikit-learn** and **TensorFlow**.
 
-## Resultados
-El rendimiento del modelo se evalúa utilizando métricas como la precisión en la predicción de la carga de calefacción.
+## Results
+Model performance is evaluated using metrics such as heating load prediction accuracy.
